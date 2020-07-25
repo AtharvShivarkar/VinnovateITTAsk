@@ -1,0 +1,84 @@
+body{
+    background-image: url('../Img/Superman.jpg');
+    font-family: Quicksand;
+}
+.header{
+    font-family: Quicksand;
+    text-align: center;
+
+}
+.caption{
+    font-family: Quicksand;
+    font-size: 30px;
+}
+
+.caption {
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 500px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+.navbar.scrolled {
+    background: rgb(216, 22, 15);
+    transition: background 500ms;
+}
+.card{
+  background: none;
+}
+.One{
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.sub{
+  text-align: center;
+  margin-top: 10%;
+}
+.textChange{
+  text-align: center;
+}
+.icon{
+  font-size: 100px;
+}
+.second{
+  margin-left:5%;
+}
+.spinner{
+  text-align: center;
+  margin: 10%;
+}
+.end{
+  margin: 10%;
+}
+.endp{
+  font-size: 50px;
+  text-align: center;
+}
+.symbol{
+  width:200px;
+  margin-left:40%;
+}
+.aboutSymbol{
+  margin-left:30%
+}
+.setAbout{
+  margin-top:7%;
+}
+.iconEnd{
+  margin-left:15%;
+  font-size: 30px;
+}
+.navbar{
+  font-family: Quicksand
+}
